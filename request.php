@@ -1,8 +1,10 @@
 <?php
+
+
 $text = $_GET["text"];
 $word = $_GET["word"];
 
-$new_text =  str_replace($word, "***", $text)
+$new_text =  str_replace($word, "***", $text);
 ?>
 
 
@@ -19,7 +21,16 @@ $new_text =  str_replace($word, "***", $text)
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <p><?php echo $new_text ?></p>
+                <div class="row">
+                    <div class="col-6">
+                        <p><?php echo $text ?></p>
+                        <h5>La lunghezza del testo è <?php echo strlen($text) ?></h5>
+                    </div>
+                    <div class="col-6">
+                        <p><?php echo $new_text ?></p>
+                        <h5>La lunghezza del testo è <?php echo strlen($new_text) ?></h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
