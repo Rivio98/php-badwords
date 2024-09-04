@@ -2,8 +2,9 @@
 $text = $_GET["text"];
 $word = $_GET["word"];
 
-
+$new_text =  str_replace($word, "***", $text)
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +16,13 @@ $word = $_GET["word"];
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p><?php echo $new_text ?></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
