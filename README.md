@@ -7,3 +7,11 @@ stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 Ricordatevi di fare sempre il file README.md.
 Numero di push obbligatori: 7/8.
 Buon pranzo e buon lavoro, a domani.
+
+1.Creo un file con dentro il form per permettere all'utente di inserire i dati.
+
+2.Creo un secondo file dove con GET vado a prendere i dati inseriti dall'utente.
+
+3.Una volta ottenuti i dati dall'utente, ne modifico come secondo la consegna le scritture.
+
+4.Ridò la nuova scrrittura delle info all'utente.
