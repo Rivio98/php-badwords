@@ -23,11 +23,11 @@ $new_text =  str_replace($word, "***", $text);
             <div class="col-6">
                 <div class="row">
                     <div class="col-6">
-                        <p><?php echo $text ?></p>
+                        <p>vecchio testo:<?php echo $text ?></p>
                         <h5>La lunghezza del testo è <?php echo strlen($text) ?></h5>
                     </div>
                     <div class="col-6">
-                        <p><?php echo $new_text ?></p>
+                        <p>testo nuovo:<?php echo $new_text ?></p>
                         <h5>La lunghezza del testo è <?php echo strlen($new_text) ?></h5>
                     </div>
                 </div>
